@@ -1,9 +1,9 @@
 {
-  "name": "CHANGEME",
+  "name": "chaordic",
   "vendor": "vtex",
   "version": "0.0.1",
-  "title": "CHANGEME",
-  "description": "CHANGEME",
+  "title": "Chaordic",
+  "description": "Chaordic Pixel",
   "billingOptions": {
     "termsURL": "",
     "support": {
@@ -20,12 +20,12 @@
     "vtex.pixel-interfaces": "1.x"
   },
   "settingsSchema": {
-    "title": "APP NAME",
+    "title": "Chaordic",
     "type": "object",
     "properties": {
-      "gtmId": {
-        "title": "SAMPLE FIELD",
-        "description": "Enter the ID (GTM-XXXX) from your Google Tag Manager",
+      "apiKey": {
+        "title": "API Key",
+        "description": "Enter your Chaordic API Key",
         "type": "string"
       }
     }
